@@ -1,1 +1,31 @@
 /* your code */
+*{
+	margin:0;
+	padding:0;
+}
+table, tr, th, td{
+	border-collapse: collapse;
+	padding:10px;
+	margin:10px 0;
+	font-size:0.9em;
+	min-width:80px;
+}
+thead{
+	background-color:#4BC5BA;
+	color:#ffffff;
+}
+  tbody tr:nth-of-type(even)
+{
+	background-color:#DD417D;
+	color:white;
+}
+  tbody tr:nth-of-type(odd)
+{
+	background-color:white;
+}
+tr:first-child th:first-child{
+	border-top-left-radius:10px;
+}
+tr:first-child th:last-child{
+	border-top-right-radius:10px;
+}
